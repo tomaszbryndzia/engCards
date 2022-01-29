@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>i icon</title>
+    <g id="SHK-Kampagne-Integration-V+" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SHK-Wizard-(Page-2)" transform="translate(-1012.000000, -541.000000)">
+            <g id="WIZARD-2/5" transform="translate(0.000000, 8.000000)">
+                <g id="Content" transform="translate(149.000000, 264.000000)">
+                    <g id="Group-3" transform="translate(0.000000, 189.000000)">
+                        <g id="i-icon" transform="translate(864.000000, 81.000000)">
+                            <rect id="Textfield" stroke="#767B91" stroke-width="2" x="0" y="0" width="30" height="30" rx="15"></rect>
+                            <line x1="15.65" y1="20.4" x2="15.65" y2="12" id="Line-2" stroke="#767B91" stroke-width="4" stroke-linecap="square"></line>
+                            <line x1="12" y1="21.75" x2="18.75" y2="21.75" id="Line-6" stroke="#767B91" stroke-width="2" stroke-linecap="square"></line>
+                            <line x1="12" y1="11.25" x2="15.75" y2="11.25" id="Line-6-Copy" stroke="#767B91" stroke-width="2" stroke-linecap="square"></line>
+                            <circle id="Oval" fill="#767B91" cx="15.375" cy="7.125" r="1.875"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

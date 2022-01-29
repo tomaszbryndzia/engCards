@@ -1,0 +1,56 @@
+.info-wrap {
+  &:hover {
+    opacity: 1;
+    visibility: visible;
+  }
+  img {
+    cursor: pointer;
+    max-width: 30px;
+    z-index: 2;
+    position: relative;
+    &:hover ~ .info-content {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  .info-text {
+    text-align: left;
+    display: inline-block;
+    font-size: 10px;
+    opacity: 0.8;
+  }
+
+  .info-icon {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+  }
+
+  .info-content {
+    position: absolute;
+    padding: 20px 10px;
+    background-color: #000;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    top: -68px;
+    left: 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0;
+    margin-bottom: 0;
+    color: red;
+    text-align: left;
+
+    &__close {
+      position: absolute;
+      top: 7px;
+      left: 10px;
+    }
+  }
+}

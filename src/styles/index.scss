@@ -1,0 +1,39 @@
+$bg1: #e91e63;
+$bg2: #9c27b0;
+
+$monospace: Consolas, "Lucida Console", monospace;
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-smooth: auto;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #444;
+}
+
+body {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow-y: hidden;
+  background: linear-gradient(45deg, $bg1, $bg2);
+}
+
+code {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+}
+
+.text-center {
+  text-align: center;
+}
