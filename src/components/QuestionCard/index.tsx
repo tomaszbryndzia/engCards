@@ -2,17 +2,23 @@ import { FC } from "react";
 import "./Card.scss";
 import LineNumbers from "./LineNumbers";
 import Tooltip from "../Tooltip";
+import { IDatabase as IWord } from "../../database";
+import Input from "./Input";
 
-const QuestionCard: FC = () => {
+interface IProps {
+  word: IWord;
+}
+
+const QuestionCard: FC<IProps> = ({ word: { itemEn, itemPl, tooltip } }) => {
   return (
     <div className="card">
       <div className="card-front">
         <LineNumbers />
         <code>
-          <Tooltip tooltipKey="slowo" />
+          <Tooltip tooltipText={tooltip} />
           <div className="word text-center">
-            <h2>slowo</h2>
-            <input />
+            <h2>{itemPl}</h2>
+            <Input />
           </div>
         </code>
       </div>
