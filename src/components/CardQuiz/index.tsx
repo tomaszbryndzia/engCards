@@ -1,12 +1,17 @@
-import { FC } from "react";
+import { FC, useState } from "react";
 import QuestionCard from "../QuestionCard";
 import database from "../../database";
 import { randomNoRepeats } from "../../utils";
 
 const CardQuiz: FC = (): JSX.Element => {
-  const word = randomNoRepeats(database)();
+  const [word, setWord] = useState(randomNoRepeats(database)());
 
-  return <QuestionCard word={word} />;
+  const handleChangeWord = () => {
+    const randomWord = randomNoRepeats(database)();
+    setWord(randomWord);
+  };
+
+  return <QuestionCard word={word} handleChangeWord={handleChangeWord} />;
 };
 
 export default CardQuiz;
